@@ -1,0 +1,25 @@
+{ "projects":
+    [
+        { 
+          "name": "PacMan Exercise",
+          "img": "https://cdn.pixabay.com/photo/2013/07/12/16/57/pacman-151558_640.png",
+          "description": "The PacMan exercise showcases 1) border detection techniques leveraging the built-in properties of viewport height and width 2) random interger generation to pick random items out of an array and 3) self-referencing functions to provide the effect of continuous movement via setTimeout.",
+          "link": "https://github.com/jproetto/PacMen-Exercise",
+          "linkLabel": "PacMan Exercise"
+        },
+        { 
+            "name": "Map Exercise (CP Rider)",
+            "img": "https://s3.amazonaws.com/assets.centralparknyc.org/media/images/_1650x767_crop_center-center_none/Biking_IMG_0283.jpg",
+            "description": "The map exercise showcases 1) the use of 3rd party SDKs and APIs to more quickly build applications (in this case from mapbox), 2) using state to control certain apects of a functionality, by periodically checking the status of a variable's state to drive conditional outcomes, 3) functionality similar to border detection in order to trigger a reverse and 4) mouse events (in this case the onclick event handler).",
+            "link": "https://github.com/jproetto/Map-Exercise",
+            "linkLabel": "Map Exercise"
+          },
+          { 
+            "name": "Eye Movement Exercise",
+            "img": "https://da4e1j5r7gw87.cloudfront.net/wp-content/uploads/sites/2031/2022/08/close-up-blue-eye-august-blog.jpg",
+            "description": "The eye movement exercise showcases 1) mouse events (in this case the onmousemove event handler), 2) dynamic grid creation through looping, and 3) leveraging a variable named counter to connect different pieces of the code for even further dynamcy. <br> The onmousemove event handler tracks the movement of the mouse across the viewport, and combined with a function, updates the positioning of the eyeball elements within their parent div using dot notation to access the style properties of the eyeballs which control positioning. <br> The grid children (eyeballs) are created through a function which contains a for loop. The for loop is used to create an element tree containing a pre-specified number of grid children (i.e. grid cells i.e. eyeballs). Once the element tree is built by the for loop it is pushed into the innerHTML of the grid container. <br> The counter variable controls the number of grid chilren (i.e. grid cells i.e. eyeballs) created, and connects directly to the for loop upddating the positiong style properties of the eyeballs, to make sure that none of the eyeballs created are left out of the onmousemove event instructions (i.e. to make sure every eye ball's positioning is updated).",
+            "link": "https://github.com/jproetto/Eye-Movement-Exercise",
+            "linkLabel": "Eye Movement Exercise"
+          }
+    ]
+}
